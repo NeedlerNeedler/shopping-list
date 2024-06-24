@@ -20,7 +20,24 @@
       <img src="assets/love heart.png" />
       <input type="text" id="input-field" placeholder="Sausages" />
       <button id="add-button">Add to cart</button>
-      <ul id="shopping-list"></ul>
+      <div id="categories">
+        <div class="category" id="uncategorized">
+          <h3>Bits and bobs</h3>
+          <ul class="shopping-list" data-category="uncategorized"></ul>
+        </div>
+        <div class="category" id="fruits-vegetables">
+          <h3>Food</h3>
+          <ul class="shopping-list" data-category="fruits-vegetables"></ul>
+        </div>
+        <div class="category" id="dairy">
+          <h3>Bathroom stuff</h3>
+          <ul class="shopping-list" data-category="dairy"></ul>
+        </div>
+        <div class="category" id="bathroom">
+          <h3>House Stuff</h3>
+          <ul class="shopping-list" data-category="bathroom"></ul>
+        </div>
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
